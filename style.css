@@ -1,9 +1,27 @@
 .navbar {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  color: white;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.center {
+  display: flex;
   justify-content: center;
   gap: 20px;
-    
-  
 }
 
 .current {
@@ -28,7 +46,7 @@ body {
   background-color: #344161;
   font-size: 16px;
   transition: 0.2s;
-  
+
 }
 
 .nav:hover {
