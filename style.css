@@ -10,12 +10,14 @@
   display: flex;
   justify-content: flex-start;
   gap: 20px;
+  color: white;
 }
 
 .right {
   display: flex;
   justify-content: flex-end;
   gap: 20px;
+  color: white;
 }
 
 .center {
